@@ -23,5 +23,18 @@
     "devDependencies": {
       "typescript": "^5.3.3"
     }
-  }
+  },
+  "description": "Device activation system for PulseTV streaming application.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxot254-crypto/pulsetv-activation-portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxot254-crypto/pulsetv-activation-portal/issues"
+  },
+  "homepage": "https://github.com/maxot254-crypto/pulsetv-activation-portal#readme"
 }
