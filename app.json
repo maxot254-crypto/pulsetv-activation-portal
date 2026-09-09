@@ -1,0 +1,9 @@
+{
+  "name": "pulsetv-activation-portal",
+  "description": "Device activation system for PulseTV",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
