@@ -3,15 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "exports": {
-    ".": "./src/index.ts"
+  "scripts": {
+    "build": "echo 'No build needed for db'"
   },
   "dependencies": {
-    "better-sqlite3": "^11.7.0",
-    "drizzle-orm": "catalog:"
-  },
-  "devDependencies": {
-    "@types/better-sqlite3": "^7.6.11",
-    "@types/node": "catalog:"
+    "drizzle-orm": "^0.28.6"
   }
 }
