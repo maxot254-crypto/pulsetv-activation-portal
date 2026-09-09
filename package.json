@@ -1,0 +1,27 @@
+{
+  "name": "pulsetv-activation-portal",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "catalog": {
+    "dependencies": {
+      "@types/node": "^20.10.6",
+      "zod": "^3.23.8"
+    },
+    "devDependencies": {
+      "typescript": "^5.3.3"
+    }
+  }
+}
