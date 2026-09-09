@@ -14,11 +14,11 @@ COPY packages ./packages
 # Install dependencies
 RUN pnpm install
 
-# Build
-RUN pnpm build
+# Build api-server
+RUN pnpm --filter @workspace/api-server build
 
 # Expose port
 EXPOSE 3000
 
 # Start server
-CMD ["pnpm", "start"]
+CMD ["pnpm", "--filter", "@workspace/api-server", "start"]
